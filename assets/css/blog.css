@@ -1,95 +1,39 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
   color: #000;
 }
 
-/* Navbar */
-#navbar {
-  padding: 1vw 0;
-  border-bottom: 1px solid #ddd;
-  background: #fff;
-  text-align: center;
-}
-
 .navbar-brand {
   font-family: 'Lovelo', sans-serif;
-  font-size: 2vw;
   font-weight: 900;
   color: #000;
-  text-decoration: none;
+  font-size: 1.5rem;
 }
 
-.navbar-brand:hover {
-  color: #0307af;
-}
-
-/* Header */
-#about-header {
-  background-color: #f8f8f8;
-  text-align: center;
-  padding-top: 3vw;
-}
-
-#about-header p {
+.nav-link {
   font-family: 'Lovelo', sans-serif;
-  font-size: 4vw;
-  font-weight: 900;
-  color: #0307af;
-}
-
-/* Posts */
-#posts {
-  padding: 4vw;
-}
-
-.post {
-  margin-bottom: 3vw;
-  text-align: center;
-}
-
-.post h2 a {
   color: #000;
-  font-family: 'Lovelo', sans-serif;
-  font-size: 2.5vw;
-  text-decoration: none;
+  transition: 0.3s;
 }
 
-.post h2 a:hover {
+.nav-link:hover {
   color: #0307af;
 }
 
-.post .date {
-  color: gray;
-  font-size: 1vw;
+#logoimg {
+  height: 50px;
+  width: 50px;
 }
 
-.post .excerpt {
-  margin-top: 1vw;
-  font-size: 1.25vw;
-  line-height: 1.6;
+h1, h2 {
+  font-family: 'Lovelo', sans-serif;
 }
 
-/* Footer */
 footer {
   background-color: #0307af;
   color: white;
   text-align: center;
   padding: 20px 0;
-  border-top: 3px solid #00008b;
-  font-size: 1.2vw;
-}
-
-/* Responsive tweaks */
-@media (max-width: 768px) {
-  .navbar-brand { font-size: 5vw; }
-  #about-header p { font-size: 7vw; }
-  .post h2 a { font-size: 5vw; }
-  .post .excerpt { font-size: 4vw; }
-  footer { font-size: 3.5vw; }
+  margin-top: 40px;
 }

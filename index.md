@@ -1,4 +1,4 @@
 ---
-layout: home
-title: Home
+layout: blog
+title: That (D)Transit Blog
 ---
