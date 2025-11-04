@@ -1,5 +1,9 @@
 title: That (D)Transit Blog
-description: A blog about transit and development
-baseurl: "" # leave empty if it's username.github.io
-url: "https://dtransit-main.github.io/thatdtransitblog" # your GitHub Pages URL
+description: A blog about transit, cities, and design.
+baseurl: "/thatdtransitblog" # if this is a project page
+url: "https://dtransit-main.github.io"
+
 theme: null
+markdown: kramdown
+plugins:
+  - jekyll-feed
