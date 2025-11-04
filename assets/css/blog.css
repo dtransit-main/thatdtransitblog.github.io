@@ -13,6 +13,7 @@ body {
 
 .nav-link {
   font-family: 'Lovelo', sans-serif;
+  font-weight: 900;
   color: #000;
   transition: 0.3s;
 }
@@ -28,6 +29,7 @@ body {
 
 h1, h2 {
   font-family: 'Lovelo', sans-serif;
+  font-weight: 900;     
 }
 
 footer {
