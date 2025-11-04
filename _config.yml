@@ -1,7 +1,8 @@
 title: That (D)Transit Blog
 description: A blog about transit, cities, and design.
-baseurl: "/thatdtransitblog" # if this is a project page
+
 url: "https://dtransit-main.github.io"
+baseurl: "/thatdtransitblog"
 
 theme: null
 markdown: kramdown
