@@ -1,6 +1,5 @@
-title: That D Transit Blog
-description: Documenting Chicago’s transit stories.
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-plugins:
-  - jekyll-include-cache
-
+title: That (D)Transit Blog
+description: A blog about transit and development
+baseurl: "" # leave empty if it's username.github.io
+url: "https://dtransit-main.github.io/thatdtransitblog" # your GitHub Pages URL
+theme: null
