@@ -118,15 +118,12 @@
 
 .post-body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1vw;
-  font-weight: 900;
+  font-size: 1rem; /* base size for desktop */
+  font-weight: 400; /* 900 is very heavy, might be better for headings */
+  line-height: 1.6;
 }
 
-.post-body figure {
-  text-align: center;
-  margin: 2rem auto;
-}
-
+/* Adjust images inside post */
 .post-body img,
 .post-body .post-image {
   display: block;
@@ -137,24 +134,12 @@
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
-.post-body figure {
-  text-align: center;
-  margin: 2rem auto;
-}
-
-.post-body figcaption {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  color: #555;
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-
+/* Headings inside post */
 .post-body h2 {
   font-family: 'Lovelo', sans-serif;
   font-weight: 900;
-  font-size: 2.2vw;
-  margin-top: 3rem;
+  font-size: 2rem; /* changed from vw to rem */
+  margin-top: 2rem;
   margin-bottom: 1rem;
   color: #0307af;
   text-transform: uppercase;
@@ -162,6 +147,15 @@
 
 .post-body strong {
   color: #0307af;
+}
+
+/* Caption styling */
+.post-body figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 /* ---------- Footer ---------- */
@@ -194,6 +188,12 @@ footer {
 @media (max-width: 992px) {
   #hero-title { font-size: 7.5vw; }
   #hero-subtitle { font-size: 2.6vw; }
+  .post-body {
+    font-size: 0.95rem;
+  }
+  .post-body h2 {
+    font-size: 1.8rem;
+  }
   #logoimg {
     height: 8vw;
     width: 8vw;
@@ -240,4 +240,14 @@ footer {
   #main-bg-video { transform: translate(-50%, -50%); }
   #video-credit-text { font-size: 0.9rem; top: 8px; right: 10px; }
   footer p { font-size: 3.5vw; }
+  .post-body {
+    font-size: 1.05rem; /* slightly bigger for mobile readability */
+    line-height: 1.5;
+  }
+  .post-body h2 {
+    font-size: 1.5rem;
+  }
+  .post-body figcaption {
+    font-size: 0.85rem;
+  }
 }
