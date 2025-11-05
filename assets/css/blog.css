@@ -28,7 +28,7 @@ body {
   width: 50px;
 }
 
-/* --- Intro Video Section (copied + adapted from main site) --- */
+/* --- Intro Video Section (Centered Text) --- */
 #intro {
   position: relative;
   width: 100%;
@@ -42,7 +42,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 90vh;
   object-fit: cover;
   object-position: center;
   z-index: 0;
@@ -53,7 +53,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 90vh;
   background: rgba(0, 0, 0, 0.65);
   z-index: 1;
 }
@@ -67,15 +67,16 @@ body {
   font-size: 1.2vw;
 }
 
-#video-text {
+/* Fully centered text */
+#video-text-centered {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
+  text-align: center;
   color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  text-align: left;
+  width: 90%;
 }
 
 #video-header-text {
@@ -89,7 +90,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   font-size: 2vw;
-  max-width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Blog Cards */
