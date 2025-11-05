@@ -1,10 +1,14 @@
 ---
 layout: post
 title: "What Mikie Sherrill Means for Transit in New Jersey"
-date: 2025-11-04
+date: 2025-11-04 10:00:00 -0500
 excerpt: "Mikie Sherrill is governor-elect of New Jersey. Here's what that means for the future of transportation and mobility in the country's most densely-populated state."
-image: /assets/images/sherrill.jpg
+cover: /assets/images/sherrill.jpg
+categories: [transit, politics]
+tags: [Mikie Sherrill, NJ Transit, transportation]
 ---
+
+![Mikie Sherrill](/assets/images/sherrill.jpg)
 
 Election night in New Jersey brought a big race - the 2025 New Jersey gubernatorial election to decide the next Governor of the Garden State. Incumbent Democratic governor Phil Murphy, having held the position since 2018, is term-limited and therefore ineligible to run for re-election. 
 
@@ -30,7 +34,7 @@ As she moves to the governor's seat in Trenton, all eyes will be on her, particu
 
 She mentions a particularly important point, however, at the end of the page. She notes that "NJ TRANSIT must have a customer-focused mindset, improving its communication with riders and making investments that create a better experience that gets people to work on time..." If you've used NJ Transit, you'll know that information and communication is far from a strong suit - falling lightyears behind comparable agencies like Long Island Rail Road, Metro-North and Boston's MBTA Commuter Rail. It's a particularly underspoken issue of New Jersey Transit, but transforming that aspect of the agency will help the agency's relationship with the passengers, and create an overall improved experience travelling throughout the Garden State.
 
-Furthermore, Sherrill is a supporter of alternative revenue for transit agencies; rather than looking to fare hikes or tax increases, she believes finding sources of revenue through TOD, increased advertising, etc., is a better way to look for the agency of state with the highest property tax rates. This aligns heavily with the recent development coming out of the NJ Transit Corporate Office - the [LAND plan] (https://content.njtransit.com/sites/default/files/marketing/website/pdf/REAL_ESTATE_OPPORTUNITY_REPORT.pdf) is a fresh initiative from the agency to increase investment in public transit to increase revenue streams through alternative sources, including retail concessions, industrial hubs, TOD, advertising, and more. Major legislative proposals that increase housing density near NJ Transit stations, in combination with increased revenue, is steering the agency towards a positive direction in terms of accessibility and mobility in the state.
+Furthermore, Sherrill is a supporter of alternative revenue for transit agencies; rather than looking to fare hikes or tax increases, she believes finding sources of revenue through TOD, increased advertising, etc., is a better way to look for the agency of state with the highest property tax rates. This aligns heavily with the recent development coming out of the NJ Transit Corporate Office - the [LAND plan](https://content.njtransit.com/sites/default/files/marketing/website/pdf/REAL_ESTATE_OPPORTUNITY_REPORT.pdf) is a fresh initiative from the agency to increase investment in public transit to increase revenue streams through alternative sources, including retail concessions, industrial hubs, TOD, advertising, and more. Major legislative proposals that increase housing density near NJ Transit stations, in combination with increased revenue, is steering the agency towards a positive direction in terms of accessibility and mobility in the state.
 
 In terms of other future outlooks, it might benefit Sherril to look to new transit connections within New Jersey. As many people say, NJ Transit is quite good at shuttling people into and out of New Jersey, but isn't very good at shuttling people around New Jersey. Initiatives like the Monmouth-Ocean-Middlesex rail connection, rethinking bus routes, the Glassboro-Camden Light Rail, and other in-state transit connections that help decongest the roads, and increase connectivity, economic activity, and mobility in the Garden State.
 
