@@ -1,123 +1,120 @@
+/* ---------- Base ---------- */
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
   color: #000;
+  margin: 0;
 }
 
-/* Navbar */
+/* Navbar / branding */
 .navbar-brand {
   font-family: 'Lovelo', sans-serif;
   font-weight: 900;
   color: #000;
   font-size: 1.5rem;
 }
-
 .nav-link {
   font-family: 'Lovelo', sans-serif;
   font-weight: 900;
   color: #000;
-  transition: 0.3s;
+  transition: color 0.25s;
 }
+.nav-link:hover { color: #0307af; }
+#logoimg { height: 50px; width: 50px; }
 
-.nav-link:hover {
-  color: #0307af;
-}
-
-#logoimg {
-  height: 50px;
-  width: 50px;
-}
-
-/* --- Intro Video Section --- */
+/* ---------- Intro (video hero) ---------- */
+/* Use flex on #intro so children can be centered reliably */
 #intro {
-  position: relative;
+  position: relative;        /* containing block for absolutely-positioned video & overlay */
+  display: flex;
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
   width: 100%;
   height: 90vh;
   overflow: hidden;
   margin: 0;
 }
 
+/* Video - absolute and behind */
 #main-bg-video {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 90vh;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%); /* center the video media itself */
   object-fit: cover;
-  object-position: center;
   z-index: 0;
 }
 
-#video-opacity {
+/* Overlay - sits above video but below text */
+#video-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 90vh;
+  inset: 0; /* top:0;right:0;bottom:0;left:0; */
   background: rgba(0, 0, 0, 0.65);
   z-index: 1;
 }
 
+/* credit (top-right) */
 #video-credit-text {
   position: absolute;
-  top: 10px;
-  right: 15px;
-  z-index: 3;
+  top: 12px;
+  right: 16px;
+  z-index: 4;
   color: #f1f1f1;
-  font-size: 1.2vw;
+  font-size: 1.0rem;
 }
+#video-credit-text a { color: #f1f1f1; text-decoration: underline; }
 
-/* Fully centered text – fixed z-index & visibility */
-#video-text-centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 5; /* this is the key fix */
+/* Centered hero container - a normal flex child (not absolutely positioned),
+   so it centers perfectly inside #intro even if layout changes */
+#hero-center {
+  position: relative; /* above overlay because z-index higher */
+  z-index: 5;
   text-align: center;
-  color: #ffffff;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 0 16px;
+  max-width: 1100px;
 }
 
-#video-header-text {
+/* Title and subtitle styling */
+#hero-title {
   font-family: 'Lovelo', sans-serif;
   font-weight: 900;
-  font-size: 6vw;
-  padding-bottom: 20px;
-  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  margin: 0 0 12px 0;
+  font-size: 5.0vw; /* responsive sizing */
+  line-height: 1.02;
+  color: #ffffff;
+  text-shadow: 0 6px 24px rgba(0,0,0,0.75);
 }
 
-#video-subtext p {
+#hero-subtitle {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
-  font-size: 2vw;
-  max-width: 800px;
-  margin: 0 auto;
-  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  margin: 0;
+  font-size: 1.6vw;
+  color: #ffffff;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.65);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Blog Cards */
+/* ---------- Blog cards ---------- */
 .blog-card {
   border-radius: 10px;
   border: none;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
-
-.blog-card h2 a {
+.blog-card h3 a {
   color: #000;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.25s;
 }
+.blog-card h3 a:hover { color: #0307af; }
 
-.blog-card h2 a:hover {
-  color: #0307af;
-}
-
-/* Footer */
+/* ---------- Footer ---------- */
 footer {
   background-color: #0307af;
   color: white;
@@ -127,27 +124,20 @@ footer {
   border-top: 3px solid #00008b;
 }
 
-/* Responsive adjustments */
+/* ---------- Responsive tweaks ---------- */
+@media (max-width: 1200px) {
+  #hero-title { font-size: 6.0vw; }
+  #hero-subtitle { font-size: 2.0vw; }
+}
+@media (max-width: 992px) {
+  #hero-title { font-size: 7.5vw; }
+  #hero-subtitle { font-size: 2.6vw; }
+}
 @media (max-width: 576px) {
-  #intro {
-    height: 70vh;
-  }
-
-  #main-bg-video,
-  #video-opacity {
-    height: 70vh;
-  }
-
-  #video-header-text {
-    font-size: 8vw;
-  }
-
-  #video-subtext p {
-    font-size: 4vw;
-    max-width: 100%;
-  }
-
-  footer p {
-    font-size: 3.5vw;
-  }
+  #intro { height: 70vh; }
+  #hero-title { font-size: 9.0vw; }
+  #hero-subtitle { font-size: 4.0vw; max-width: 95%; }
+  #main-bg-video { transform: translate(-50%, -50%); }
+  #video-credit-text { font-size: 0.9rem; top: 8px; right: 10px; }
+  footer p { font-size: 3.5vw; }
 }
