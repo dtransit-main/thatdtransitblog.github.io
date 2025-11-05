@@ -8,8 +8,6 @@ categories: [transit, politics]
 tags: [Mikie Sherrill, NJ Transit, transportation]
 ---
 
-![Mikie Sherrill](/assets/images/sherrill.jpg)
-
 Election night in New Jersey brought a big race - the 2025 New Jersey gubernatorial election to decide the next Governor of the Garden State. Incumbent Democratic governor Phil Murphy, having held the position since 2018, is term-limited and therefore ineligible to run for re-election. 
 
 As of Election Night, AP News (and other decision desks) called the election in the name of Democratic candidate Mikie Sherrill and her running mate Dale Galdwell, who held uncharacteristically large margins over the Republican nominee Jack Ciaterelli, and his running mate Jim Gannon. Sherrill, a current U.S. Representative for New Jersey's 11th Distric and former naval office, emerged from a crowded Democratic primary in mid-June, while former state assemblyman Ciattarelli beat out Bill Spadea in their Republican primary.
