@@ -28,7 +28,7 @@ body {
   width: 50px;
 }
 
-/* --- Intro Video Section (Centered Text) --- */
+/* --- Intro Video Section --- */
 #intro {
   position: relative;
   width: 100%;
@@ -67,16 +67,20 @@ body {
   font-size: 1.2vw;
 }
 
-/* Fully centered text */
+/* Fully centered text – fixed z-index & visibility */
 #video-text-centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 5; /* this is the key fix */
   text-align: center;
-  color: #f1f1f1;
+  color: #ffffff;
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #video-header-text {
@@ -84,6 +88,7 @@ body {
   font-weight: 900;
   font-size: 6vw;
   padding-bottom: 20px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 #video-subtext p {
@@ -92,6 +97,7 @@ body {
   font-size: 2vw;
   max-width: 800px;
   margin: 0 auto;
+  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
 }
 
 /* Blog Cards */
