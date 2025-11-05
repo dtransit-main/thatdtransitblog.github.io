@@ -116,6 +116,12 @@
 }
 .blog-card h3 a:hover { color: #0307af; }
 
+#post-body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.75vw;
+  font-weight: 900;
+}
+
 /* ---------- Footer ---------- */
 footer {
   background-color: #0307af;
