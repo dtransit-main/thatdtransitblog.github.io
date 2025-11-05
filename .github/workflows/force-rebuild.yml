@@ -1,0 +1,13 @@
+name: Force Rebuild
+
+on:
+  push:
+    branches:
+      - main  # or 'master' if your repo uses that
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Touch rebuild trigger
+        run: echo "Rebuild triggered at $(date)" > rebuild.log
