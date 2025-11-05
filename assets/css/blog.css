@@ -122,6 +122,48 @@
   font-weight: 900;
 }
 
+.post-body figure {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.post-body img,
+.post-body .post-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.post-body figure {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.post-body figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.post-body h2 {
+  font-family: 'Lovelo', sans-serif;
+  font-weight: 900;
+  font-size: 2.2vw;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #0307af;
+  text-transform: uppercase;
+}
+
+.post-body strong {
+  color: #0307af;
+}
+
 /* ---------- Footer ---------- */
 footer {
   background-color: #0307af;
