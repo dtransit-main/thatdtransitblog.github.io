@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How the Long Island Rail Road Strike Unfolded"
-date: 2026-05-19 18:00:00 -0500
+date: 2026-05-19 0:00:00 -0500
 excerpt: "For three and a half days, the country's busiest commuter rail network, the Long Island Rail Road, was suspended due to a strike from five unions. Here's how the events unfolded."
 cover: /assets/images/LIRRstrike/LIRRStrikeCoverImage.jpg
 categories: [LIRR]
