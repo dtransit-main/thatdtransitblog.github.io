@@ -205,6 +205,24 @@
   object-fit: cover; /* crop images to fit exactly */
 }
 
+/* Make post grid columns and cards equal-height */
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-eq-height > [class*="col-"] {
+  display: flex;
+}
+.row-eq-height .blog-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.row-eq-height .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ---------- Footer ---------- */
 footer {
   background-color: #0307af;
