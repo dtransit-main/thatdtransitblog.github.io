@@ -61,7 +61,7 @@ I’m pleased to announce that phased LIRR service will resume beginning tomorro
 
 Following this agreement, the MTA confirmed that LIRR service would resume on Tuesday, May 19th at 12pm, following thorough inspections of the rail network to ensure that no infrastructure was damaged during the three-day dormant period of the LIRR. Gradual service is beginning on the Port Washington, Huntington, Ronkonkoma and Babylon branches, with increased service coming later in the day.
 
-# What To Take From This!
+## What To Take From This!
 
 A strike to any railroad can be debilitating to the local economy, but in the Northeast, it is particularly devastating. The wide-ranging impact of the strike is clear evidence of just how much the local population relies on public transit, and how a lack of it affects everyone - making roadways even more miserable, increasing air pollution, and affecting opportunity for both the big businesses in New York City, as well as the small businesses across Long Island. 
 
